@@ -13,10 +13,8 @@ orgs.newOrg('iot.upm', 'eclipse-upm') {
       allow_squash_merge: false,
       allow_update_branch: false,
       code_scanning_default_languages+: [
-        "javascript",
         "javascript-typescript",
         "python",
-        "typescript"
       ],
       code_scanning_default_setup_enabled: true,
       default_branch: "master",
